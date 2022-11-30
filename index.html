@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisrt Capstone</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/8c48558663.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>   
+</head>
+<body>
+    <!--mobile menu-->
+    <div class="menu-mobile">
+        <img class="X-icon" onclick="CloseMenu()" src="img/X-icon.svg" alt="X icon" >
+        <div class="top-menu">
+            <ul>
+                <li><a><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a>Contact us</a></li>
+                <li><a>Sign up</a></li>
+            </ul>
+        </div>
+        <ul class="mobile-menu">
+            <li><a href="http://" class="links" id="homeLink">Home</a></li>
+            <li><a href="http://" class="links" id="aboutLink">About</a></li>
+        </ul>
+    </div>
+
+    <header>
+        <div class="topbar">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#">News</a>
+            <a href="#">Sign up</a>
+        </div>
+        <nav class="desktop-menu">
+            <a id="sitelogo" href="./index.html"><img src="./img/Music logo.jpg" id="logo" alt="Music logo"></a>
+            <ul class="desktopnav">
+                <a id="activelink" href="./index.html">
+                    <li>Home</li>
+                </a>
+
+                <a href="./about.html">
+                    <li>About</li>
+                </a>
+
+                <a href="">
+                    <li>Sign up</li>
+                </a>
+                <a href=""><button type="button"></button></a>
+            </ul>
+        </nav>
+        <i class="fa-solid fa-bars" onclick="openMenu()" id="menu-icon"></i>
+    </header>
+    <main>
+        <section class="headline">
+            <div class="title">
+                <h3>"Hello! Music Lover"</h3>
+                <h1>Summer Music Festival 2023</h1>
+                <p class="headline-text">The festival will features the most talented musiciens from around the world. Don't miss out on the opportinity to have a best time of your life. Join us on february the 5th</p>
+            </div>
+            <div class="date">
+                <h3>2023.02.05(SAT) ~ 9(WED)</h3>
+                <p class="venue">@GrandWest Cape Town Goodwood and more</p>
+            </div>
+        </section>
+        <section class="container">
+            <h3>
+                Main Program
+            </h3>
+            <hr>
+            <section class="container2">
+                <div class="wrap">
+                    <i class=""></i>
+                    <h3>saxophonist</h3>
+                    <p>The saxophonist will play together with the synphony and many more instrumentds on the day one of the festival</p>
+                </div>
+
+                <div class="wrap">
+                    <i class=""></i>
+                    <h3>RNB</h3>
+                    <p>The saxophonist will play together with the synphony and many more instrumentds on the day one of the festival</p>
+                </div>
+
+                <div class="wrap">
+                    <i class=""></i>
+                    <h3>Hip-hop</h3>
+                    <p>The saxophonist will play together with the synphony and many more instrumentds on the day one of the festival</p>
+                </div>
+
+                <div class="wrap">
+                    <i class=""></i>
+                    <h3>POP</h3>
+                    <p>The saxophonist will play together with the synphony and many more instrumentds on the day one of the festival</p>
+                </div>
+
+                <div class="wrap">
+                    <i class=""></i>
+                    <h3>Jaz</h3>
+                    <p>The saxophonist will play together with the synphony and many more instrumentds on the day one of the festival</p>
+                </div>
+
+            </section>
+        </section>
+        <section class="Artists">
+            <h3>Featured Artist</h3>
+            <hr>
+            <div class="Artist-list"></div>
+        </section>
+        <footer>
+            <div class="Sponsor">
+                <h2>Partner</h2>
+
+                <div class="Sponsor-corporation">
+                    <h3><i class="fab fa-google"></i>Google</h3>
+                    
+                    <h3><i class="fa-brands fa-"></i></h3>
+                    <h3><i class="fa-brands fa-"></i></h3>
+                    <h3><i class="fab fa-microsoft"></i>Microsoft</h3>
+                    <h3><i class="fa-brands fa-facebook"></i>FaceBook</h3>
+                </div>
+            </div>
+            <div class="logo-rights">
+                <img src="./img/Music logo.jpg" id="logoimage" alt="Logo image">
+                <p>@2023 summer Music festival Some rights reserved</p>
+            </div> 
+        </footer>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
