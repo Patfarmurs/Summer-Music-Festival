@@ -1,132 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fisrt Capstone</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://kit.fontawesome.com/8c48558663.js" crossorigin="anonymous"></script>
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>First Capstone</title>
 </head>
+
 <body>
-    <!--mobile menu-->
-    <div class="menu-mobile">
-        <img class="X-icon" onclick="CloseMenu()" src="img/X-icon.svg" alt="X icon" >
+
+    <!-- mobile menu -->
+    <div class="menuformobile">
+        <img class="closeicon" onclick="CloseMenu()" src="./img/X-icon.png" alt="X icon">
         <div class="top-menu">
             <ul>
                 <li><a><i class="fa-brands fa-facebook"></i></a></li>
                 <li><a><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a>Contact us</a></li>
-                <li><a>Sign up</a></li>
+                <li><a>Logout</a></li>
+                <li><a>Mypage</a></li>
             </ul>
         </div>
         <ul class="mobile-menu">
-            <li><a href="http://" class="links" id="homeLink">Home</a></li>
-            <li><a href="http://" class="links" id="aboutLink">About</a></li>
+            <li><a href="./index.html" class="links" id="homeLink">Home</a></li>
+            <li><a href="./about.html" class="links" id="aboutLink">About</a></li>
+            <li><a id="programLink" class="links">Program</a></li>
+            <li><a id="joinLink" class="links">Join</a></li>
+            <li><a id="contactLink" class="links">Contact</a></li>
         </ul>
     </div>
+    <!-- End -->
 
     <header>
-        <div class="topbar">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#">News</a>
-            <a href="#">Sign up</a>
+        <div class="newtopbar">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href="">Logout</a>
+            <a href="">Contact</a>
         </div>
-        <nav class="desktop-menu">
-            <a id="sitelogo" href="./index.html"><img src="./img/Music logo.jpg" id="logo" alt="Music logo"></a>
+        <nav class="navmenu-desktop">
+            <a id="sitelogo" href="./index.html"><img src="./img/h-music-logo.jpg" id="Music logo"
+                    alt="Logo"></a>
             <ul class="desktopnav">
                 <a id="activelink" href="./index.html">
                     <li>Home</li>
                 </a>
-
                 <a href="./about.html">
                     <li>About</li>
                 </a>
-
                 <a href="">
-                    <li>Sign up</li>
+                    <li>Contact us</li>
                 </a>
-                <a href=""><button type="button"></button></a>
+                <a href="">
+                    <li>News</li>
+                </a>
+                <a href=""><button type="button">Campaign</button></a>
             </ul>
         </nav>
-        <i class="fa-solid fa-bars" onclick="openMenu()" id="menu-icon"></i>
+        <i class="fa-solid fa-bars" onclick="OpenMenu()" id="menu-icon"></i>
+
     </header>
     <main>
         <section class="headline">
-            <div class="title">
+            <div class="tittle">
                 <h3>"Hello! Music Lover"</h3>
-                <h1>Summer Music Festival 2023</h1>
-                <p class="headline-text">The festival will features the most talented musiciens from around the world. Don't miss out on the opportinity to have a best time of your life. Join us on february the 5th</p>
+                <h1>SUMMER Music Festival 2023</h1>
+                <p class="headline-desc">The Festival is featuring many different Artists from all type of music you can
+                    get out there.</p>
             </div>
+
             <div class="date">
-                <h3>2023.02.05(SAT) ~ 9(WED)</h3>
-                <p class="venue">@GrandWest Cape Town Goodwood and more</p>
+                <h3>2023.03.23(WED) ~ 3(SAT)</h3>
+                <p class="venue">@ Grand West Cape Town Goodwood</p>
             </div>
         </section>
+
         <section class="container">
             <h3>
                 Main Program
             </h3>
             <hr>
             <section class="container2">
+
                 <div class="wrap">
-                    <i class=""></i>
-                    <h3>saxophonist</h3>
-                    <p>The saxophonist will play together with the synphony and many more instrumentds on the day one of the festival</p>
+                    <i class="fa-solid fa-synphony"></i>
+                    <h3>Synphony</h3>
+
+                    <p>symphony, a lengthy form of musical composition for orchestra, normally consisting of several
+                        large sections, or movements, at least one of which usually employs sonata form (also called
+                        first-movement form).</p>
+                </div>
+
+
+                <div class="wrap">
+                    <i class="fa-brands fa-country Music"></i>
+                    <h3>Country Music</h3>
+
+                    <p>Country music often consists of ballads and honky-tonk dance tunes with generally simple form,
+                        folk lyrics, and harmonies often accompanied by string instruments such as electric and acoustic
+                        guitars, steel guitars (such as pedal steels and dobros), banjos, and fiddles as well as
+                        harmonicas.</p>
                 </div>
 
                 <div class="wrap">
-                    <i class=""></i>
-                    <h3>RNB</h3>
-                    <p>The saxophonist will play together with the synphony and many more instrumentds on the day one of the festival</p>
+                    <i class="fa-brands fa-r&b"></i>
+                    <h3>R&B</h3>
+                    <p>The term "rhythm and blues," often called "R&B," originated in the 1940s when it replaced "race
+                        music" as a general marketing term for all African American music, though it usually referred
+                        only to secular, not religious music.</p>
                 </div>
 
                 <div class="wrap">
-                    <i class=""></i>
+                    <i class="fa-solid fa-Hip-hop"></i>
                     <h3>Hip-hop</h3>
-                    <p>The saxophonist will play together with the synphony and many more instrumentds on the day one of the festival</p>
+                    <p>Hip-hop is a genre of music most often characterized by a strong, rhythmic beat and a rapping
+                        vocal track. The genre originated in New York City in the 1970s as a cultural exchange among
+                        Black, Latino, and Caribbean youth and has grown into one of the most consumed genres of music
+                        in the United States</p>
                 </div>
-
                 <div class="wrap">
-                    <i class=""></i>
-                    <h3>POP</h3>
-                    <p>The saxophonist will play together with the synphony and many more instrumentds on the day one of the festival</p>
-                </div>
-
-                <div class="wrap">
-                    <i class=""></i>
-                    <h3>Jaz</h3>
-                    <p>The saxophonist will play together with the synphony and many more instrumentds on the day one of the festival</p>
+                    <i class="fa-solid fa-kizomba"></i>
+                    <h3>Kizomba</h3>
+                    <p>Kizomba music emerged as a fusion of Semba, Angolan Merengue, Kilapanga, and further Angolan
+                        music influences: It slowed down the cadence of songs and added a stronger bass line to the
+                        composition of instruments.</p>
                 </div>
 
             </section>
+            <a class="link-program">SEE THE WHOLE PROGRAM</a>
+            <button class="button">Come to have a great time with us</button>
         </section>
-        <section class="Artists">
-            <h3>Featured Artist</h3>
-            <hr>
-            <div class="Artist-list"></div>
-        </section>
-        <footer>
-            <div class="Sponsor">
-                <h2>Partner</h2>
 
-                <div class="Sponsor-corporation">
-                    <h3><i class="fab fa-google"></i>Google</h3>
-                    
-                    <h3><i class="fa-brands fa-"></i></h3>
-                    <h3><i class="fa-brands fa-"></i></h3>
-                    <h3><i class="fab fa-microsoft"></i>Microsoft</h3>
-                    <h3><i class="fa-brands fa-facebook"></i>FaceBook</h3>
+        <section class="artists">
+            <h3>Featured Artists</h3>
+            <hr>
+
+            <div class="artists-elt">
+
+            </div>
+            <!-- <div class="more">MORE <img src="style/images/arrow-down.png" alt=""></div> -->
+        </section>
+        </div>
+
+        <footer>
+            <div class="partner">
+                <h2>Partner</h2>
+                <hr>
+
+                <div class="partner-corporation">
+                    <h3><i class="fab fa-tesla"></i>Tesla</h3>
+
+                    <h3><i class="fa-brands fa-sonny music"></i>Sonny Music</h3>
+                    <h3><i class="fa-brands fa-trace tv"></i>Trace Tv</h3>
+                    <h3><i class="fab fa-universal music"></i>Universal Music</h3>
+                    <h3><i class="fa-brands fa-mayby music"></i>MayBy Music</h3>
                 </div>
             </div>
+
             <div class="logo-rights">
-                <img src="./img/Music logo.jpg" id="logoimage" alt="Logo image">
-                <p>@2023 summer Music festival Some rights reserved</p>
-            </div> 
+                <img src="./img/h-music-logo.jpg" id="logoimage" alt="Music logo">
+                <p>@2023 summer Music Festival Some rights reserved</p>
+            </div>
         </footer>
+        <script src="main.js"></script>
     </main>
-    <script src="main.js"></script>
 </body>
+
 </html>
