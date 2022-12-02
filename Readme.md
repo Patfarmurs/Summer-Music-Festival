@@ -52,7 +52,7 @@ REQUIRED SECTIONS:
 
 > Describe your project in 1 or 2 centence.
 This project is about buiding my professional portfolio to show what I've be learning and what I can do.
-**[Building a Portfolio]** is .
+**[First Capstone]** is .
 
 ## 🛠 Built With <"Basic HTML, CSS and JavaScript"></a>
 
@@ -77,7 +77,7 @@ This project is about buiding my professional portfolio to show what I've be lea
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://patfarmurs.github.io/Summer-Music-Festival/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
