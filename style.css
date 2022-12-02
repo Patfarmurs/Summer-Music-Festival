@@ -1,5 +1,5 @@
-* {
-  font-family: 'Lato', sans-serif;
+ * {
+  font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -21,10 +21,6 @@ button {
 }
 
 /* mobile menu */
-#logoimage {
-  filter: brightness(100%) contrast(102%);
-}
-
 .menuformobile {
   display: none;
   z-index: 2;
@@ -83,7 +79,7 @@ button {
 /* end */
 
 .headline {
-  background: url("./img/Microphone.jpg");
+  background-image: url("./img/Microphone.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -143,7 +139,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('https://w0.peakpx.com/wallpaper/790/822/HD-wallpaper-black-mesh-texture-creative-black-background-hexagons-texture-black-texture-mesh-black-background-thumbnail.jpg');
+  background-image: url("https://w0.peakpx.com/wallpaper/790/822/HD-wallpaper-black-mesh-texture-creative-black-background-hexagons-texture-black-texture-mesh-black-background-thumbnail.jpg");
   padding: 3%;
   border-radius: 3px;
 }
@@ -197,7 +193,7 @@ p {
   display: none;
 }
 
-.artists {
+.speakers {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -205,7 +201,7 @@ p {
   margin: 5% 0;
 }
 
-.artist-wrap {
+.speaker-wrap {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -213,15 +209,15 @@ p {
   padding: 20px;
 }
 
-.artists .desc {
+.speakers .desc {
   font-style: italic;
   color: rgb(255, 73, 37);
 }
 
-.artist-wrap img {
+.speaker-wrap img {
   width: 100px;
   height: 100px;
-  background-image: url('./images/speaker_bg.jpg');
+  background-image: url("./images/speaker_bg.jpg");
   background-repeat: no-repeat;
   background-size: 85px;
   padding: 15px;
@@ -233,17 +229,17 @@ p {
   flex-direction: column;
 }
 
-.artists hr {
+.speakers hr {
   width: 9%;
-  border: 1px solid  rgb(255, 73, 37);
+  border: 1px solid rgb(255, 73, 37);
 }
 
-.artist-wrap p {
+.speaker-wrap p {
   color: black;
   font-size: 0.85rem;
 }
 
-.artist-wrap hr {
+.speaker-wrap hr {
   border: 1px solid rgb(179, 175, 175);
 }
 
@@ -336,7 +332,7 @@ p {
   }
 
   #sitelogo {
-    width: 20%;
+    width: 30%;
   }
 
   .navmenu-desktop img {
@@ -417,7 +413,10 @@ p {
     margin-top: 4%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+
+    /* align-items: center; */
+
+    /* height: 60vh; */
   }
 
   .container2 {
@@ -477,12 +476,12 @@ p {
     transition: all 0.4s ease-in-out;
   }
 
-  .artists hr {
+  .speakers hr {
     width: 3%;
     margin-top: 1%;
   }
 
-  .artists-elt {
+  .speakers-elt {
     width: 65%;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -490,7 +489,7 @@ p {
     justify-content: space-between;
   }
 
-  .artist-wrap {
+  .speaker-wrap {
     display: flex;
   }
 
