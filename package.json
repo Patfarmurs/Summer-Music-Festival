@@ -1,0 +1,23 @@
+{
+  "name": "summer-music-festival",
+  "version": "1.0.0",
+  "description": "Microvesre",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patfarmurs/Summer-Music-Festival.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patfarmurs/Summer-Music-Festival/issues"
+  },
+  "homepage": "https://github.com/Patfarmurs/Summer-Music-Festival#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
+}
