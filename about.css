@@ -1,5 +1,5 @@
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -21,10 +21,6 @@ button {
 }
 
 /* mobile menu */
-#logoimage {
-  filter: invert(190%) sepia(23%) saturate(7495%) hue-rotate(346deg) brightness(100%) contrast(102%);
-}
-
 .menuformobile {
   display: none;
   z-index: 2;
@@ -34,7 +30,7 @@ button {
   flex-direction: column;
   color: white;
   width: 100vw;
-  background-color: black;
+  background-color: rgba(238, 63, 63, 0.735);
 }
 
 .closeicon {
@@ -93,10 +89,10 @@ button {
 }
 
 .headline {
-  background-image: url("./img/Microphone.jpg");
+  background-image: url("./img/headline-image.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right 3%;
+  background-position: 3% right;
   padding: 5%;
 }
 
@@ -120,7 +116,7 @@ button {
 
 .tittle h1 {
   -webkit-background-clip: text;
-  background-clip: padding-box;
+  background-clip: text;
   background-image: url(https://w0.peakpx.com/wallpaper/194/474/HD-wallpaper-red-and-orange-texture-red-aesthetic.jpg);
   color: transparent;
   background-position: center left;
@@ -165,11 +161,11 @@ button {
 
 hr {
   width: 9%;
-  border: 1px solid  rgb(255, 73, 37);
+  border: 1px solid rgb(255, 73, 37);
   margin: 2% auto;
 }
 
-.Music-image {
+.boot-image {
   width: 75%;
 }
 
@@ -185,7 +181,7 @@ hr {
   text-align: center;
 }
 
-.past_festivals p {
+.past_vestivals p {
   margin: 5% 3%;
   color: rgb(100, 100, 100);
   font-size: 13px;
@@ -200,7 +196,7 @@ hr {
 .firstphoto {
   width: 80vw;
   height: 23vh;
-  background: url('./img/Consert.jpeg');
+  background: url("./img/Concert2.jpeg");
   box-shadow: inset -100vw -100vh rgba(252, 3, 3, 0.594);
   background-size: cover;
   margin: 3%;
@@ -210,7 +206,7 @@ hr {
 .secondphoto {
   width: 80vw;
   height: 23vh;
-  background: url('./img/Concert2.jpeg');
+  background: url("./img/Consert.jpeg");
   background-size: cover;
   box-shadow: inset -100vw -100vh rgba(252, 3, 3, 0.594);
   margin: 3% 0 6% 0;
@@ -398,10 +394,10 @@ hr {
   }
 
   .headline21 {
-    background-image: url("./img/Microphone.jpg");
+    background-image: url("./img/headline-image.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right 0;
+    background-position: 0 right;
   }
 
   .headline-desc2 {
@@ -458,12 +454,12 @@ hr {
     border: 1px solid rgb(224, 221, 221);
   }
 
-  .past_festivals p {
+  .past_bootcamps p {
     margin: 3%;
     font-size: 1rem;
   }
 
-  .festivalphotos {
+  .bootcampphotos {
     flex-direction: row;
     align-items: baseline;
   }
