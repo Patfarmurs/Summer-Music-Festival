@@ -1,17 +1,9 @@
+
+# First-Capstone
+
 <a name="readme-top"></a>
 
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
+
 
 <div align="center">
 
@@ -26,212 +18,118 @@ REQUIRED SECTIONS:
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Capstone-Project: Summer BootCamp 2023 ](#-capstone-project-summer-bootcamp-2023-)
+  - [🛠 Built With ](#-built-with-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [First capestone] <a name="First capestone"></a>
+# 📖 Capstone-Project: Summer Music Festival <a name="about-project"></a>
 
-> Describe your project in 1 or 2 centence.
-This project is about buiding my professional portfolio to show what I've be learning and what I can do.
-**[First Capstone]** is .
+**[Capstone-Project: Summer Music Festival]** is about series of conscert prodution during Summer. the program will feature all different kind of music and artist .
 
-## 🛠 Built With <"Basic HTML, CSS and JavaScript"></a>
+[Loom Video Presentation](https://www.loom.com/share/fec156053a8d4a5488170b52f51be1be)
 
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
+## 🛠 Built With <a name="built-with"></a>
+    HTML
+    CSS
+    Javascript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://patfarmurs.github.io/Summer-Music-Festival/)
+[Summer Music festival](https://github.com/Patfarmurs/Summer-Music-Festival/ )
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+- Create a local directory that you want to clone the repository.
 
-To get a local copy up and running, follow these steps.
+- Open the command prompt in the created directory.
+
+- On the terminal run this command git clone https://github.com/Patfarmurs/Summer-Music-Festival/
+
+- Install the dev dependencies for linters run npm install.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
+-Any broswer
 
-```sh
- gem install rails
-```
- -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+- Open the command prompt in the created directory.
 
-```sh
- 
-### Install
+- On the terminal run this command git clone https://github.com/Salwa99/First-Capstone.git
 
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
+- Install the dev dependencies for linters run npm install.
 --->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
-
-- GitHub: @Patfarmust
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
+<!-- Author -->
+
+👤 **Author**
+
+- GitHub: [@Patfarmurs](https://github.com/Patfarmurs)
+- Twitter: [@mukulayengeP](https://twitter.com/mukulayengeP)
+- LinkedIn: [Patrick Mukula](https://www.linkedin.com/in/Patrick-mukula-000422/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Implement some UX improvements: add the "More" button on the home page, includeing transitions and/or animation.
+
+- Implement additional pages.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Patfarmurs/Summer-Music-Festival/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+[Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) for the Amazing Design Template.
 
-I would like to thank...
-@Safari amuli
-@lyass atlassi
-@Hmmas
-@Sajeel zafar
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+[fontawesome](https://fontawesome.com/) Special thanks to fontawesome for the icons assets.
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]** How would you deal with blockers? 
-
-  - [Answer_1]
-
-- **[Question_2]** Do you feel ambarrased hasking for help when you don't understand something?
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
