@@ -30,7 +30,7 @@ button {
   flex-direction: column;
   color: white;
   width: 100vw;
-  background-color: rgba(238, 63, 63, 0.735);
+  background-color: black;
 }
 
 .closeicon {
