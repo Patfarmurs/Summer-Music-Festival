@@ -3,13 +3,13 @@ const homeLink = document.querySelector('#homeLink');
 const aboutLink = document.querySelector('#aboutLink');
 const speakersCards = document.querySelector('.speakers-elt');
 
-function OpenMenu() {
+function open () {
   document.querySelector('.menuformobile').style.display = 'flex';
   document.querySelector('.closeicon').style.display = 'block';
   document.querySelector('main').style.filter = ' blur(6px)';
 }
 
-function CloseMenu() {
+function  closed() {
   document.querySelector('.menuformobile').style.display = 'none';
   document.querySelector('header').style.filter = ' blur(0)';
   document.querySelector('main').style.filter = ' blur(0)';

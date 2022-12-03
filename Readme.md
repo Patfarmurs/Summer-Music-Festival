@@ -48,7 +48,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Summer Music festival](https://github.com/Patfarmurs/Summer-Music-Festival/ )
+[Summer Music festival](https://Patfarmurs.github.io/summer-music-festival/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
