@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+/* eslint-enabled */
 const homeLink = document.querySelector('#homeLink');
 const aboutLink = document.querySelector('#aboutLink');
 const speakersCards = document.querySelector('.speakers-elt');
