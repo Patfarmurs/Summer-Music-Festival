@@ -1,22 +1,20 @@
 const homeLink = document.querySelector('#homeLink');
 const aboutLink = document.querySelector('#aboutLink');
-const speakersCards = document.querySelector('.speakers-elt')
+const speakersCards = document.querySelector('.speakers-elt');
 
-function OpenMenu() {
-    document.querySelector('.menuformobile').style.display = 'flex';
-    document.querySelector('.closeicon').style.display = 'block';
-    document.querySelector('main').style.filter = ' blur(6px)';
+document.querySelector('#menu-icon').addEventListener('click', () => {
+  document.querySelector('.menuformobile').style.display = 'flex';
+  document.querySelector('.closeicon').style.display = 'block';
+  document.querySelector('main').style.filter = ' blur(6px)';
+});
 
-    
-  }
-
-function CloseMenu() {
-document.querySelector('.menuformobile').style.display = 'none';
-document.querySelector('header').style.filter = ' blur(0)'; 
-document.querySelector('main').style.filter = ' blur(0)';
-document.querySelector('headeline').style.filter = ' blur(0)';
-document.querySelector('footer').style.filter = ' blur(0)';
-}
+document.querySelector('.closeicon').addEventListener('click', () => {
+  document.querySelector('.menuformobile').style.display = 'none';
+  document.querySelector('header').style.filter = ' blur(0)';
+  document.querySelector('main').style.filter = ' blur(0)';
+  document.querySelector('headeline').style.filter = ' blur(0)';
+  document.querySelector('footer').style.filter = ' blur(0)';
+});
 
 aboutLink.addEventListener('click', () => {
   document.querySelector('.menuformobile').style.display = 'none';
