@@ -33,7 +33,7 @@ homeLink.addEventListener('click', () => {
   document.querySelector('footer').style.filter = ' blur(0)';
 });
 
-/* eslint-disable no-unused-vars */
+/* eslint-enabled */
 const ArtistsList = [
   {
     artistname: 'Charli Puth',
