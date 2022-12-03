@@ -88,14 +88,6 @@ button {
   display: none;
 }
 
-.headline {
-  background-image: url("./img/headline-image.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 3% right;
-  padding: 5%;
-}
-
 .headline i {
   color: rgb(68, 68, 90);
   margin-bottom: 6%;
@@ -115,9 +107,8 @@ button {
 }
 
 .tittle h1 {
-  -webkit-background-clip: text;
-  background-clip: text;
   background-image: url(https://w0.peakpx.com/wallpaper/194/474/HD-wallpaper-red-and-orange-texture-red-aesthetic.jpg);
+  -webkit-background-clip: text;
   color: transparent;
   background-position: center left;
   text-align: center;
@@ -397,7 +388,6 @@ hr {
     background-image: url("./img/headline-image.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 right;
   }
 
   .headline-desc2 {
